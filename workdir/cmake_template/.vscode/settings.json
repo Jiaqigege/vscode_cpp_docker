@@ -1,0 +1,13 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "/usr/bin/clangd",
+    "clangd.arguments": [
+        "--log=verbose",
+        "--query-driver=/usr/bin/gcc",
+        "--compile-commands-dir=${workspaceFolder}/build/"
+    ],
+    "editor.inlayHints.enabled": "off"
+
+}

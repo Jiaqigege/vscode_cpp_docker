@@ -1,0 +1,13 @@
+version: '3'
+services:
+  vscode_cppdev_ins:
+    image: vscode_cppdev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #ports:
+    #  - 2222:22  
+    volumes:
+      - ./workdir:/home/damon/ # 挂载主机的data目录到容器的/home/damon/data目录，你可以根据需要修改
+    #restart: unless-stopped  # 容器在退出后会自动重启，除非手动停止
+

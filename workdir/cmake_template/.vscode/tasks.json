@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "scp cmake_exe",
+            "type": "shell",
+            "command": "scp",
+            "args": [
+                "'build/cmake_exe'",
+                "'ubuntu@192.168.6.19:~/test'"
+            ]
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        }
+    ]
+}

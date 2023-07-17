@@ -1,0 +1,8 @@
+build/
+lib/universal_lib/x64
+lib/universal_lib/arm64
+build_arm64/
+build_x64/
+.cache/
+log
+*.log

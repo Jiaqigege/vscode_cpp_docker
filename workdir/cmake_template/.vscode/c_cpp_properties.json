@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "x64",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc-9",
+            "cStandard": "c89",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "arm64",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc",
+            "cStandard": "c89",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "armhf",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc",
+            "cStandard": "c89",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
