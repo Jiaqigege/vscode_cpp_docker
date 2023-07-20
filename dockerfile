@@ -49,6 +49,8 @@ EXPOSE 22
 #设置自启动命令
 #CMD ["/run.sh"]
 #CMD ["/bin/bash", "-c", "/run.sh"]
+COPY ./package /package
+RUN ./package/install.sh
 
 USER damon
 WORKDIR /home/damon
