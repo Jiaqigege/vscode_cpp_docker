@@ -1,0 +1,2 @@
+# docker-compose run --name <custom-container-name> <service-name> /bin/bash
+docker-compose run --name cppdev cppdev /bin/bash
